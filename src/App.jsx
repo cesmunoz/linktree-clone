@@ -14,7 +14,7 @@ function App() {
             alt="cemdev"
           />
           <span className="text-white font-bold font-sans">@cemdev</span>
-          <span className="text-white font-sans">
+          <span className="text-white font-sans px-5">
             Software Developer || Always learning and building cool stuff
           </span>
           <div className="flex gap-4 text-white">
@@ -22,7 +22,7 @@ function App() {
               <IconLink key={index} link={iconLink.link} icon={iconLink.icon} />
             ))}
           </div>
-          <div className="flex gap-4 text-white flex-col mt-4 min-w-full px-4 max-w-36">
+          <div className="flex gap-4 text-white flex-col mt-4 min-w-full px-4 justify-center items-center">
             {buttonLinks.map((item, index) => (
               <ButtonLink key={index} link={item.link}>
                 {item.name}

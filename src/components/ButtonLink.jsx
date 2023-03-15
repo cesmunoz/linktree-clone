@@ -38,7 +38,7 @@ const ButtonLink = ({ children, link }) => {
     <a
       href={link}
       target="_blank"
-      className="text-center bg-transparend font-bold border border-white rounded-3xl py-3 hover:bg-white hover:text-black"
+      className="text-center bg-transparend font-bold border border-white rounded-3xl py-3 hover:bg-white hover:text-black w-full sm:w-2/6"
     >
       {children}
     </a>
